@@ -57,7 +57,7 @@ func getCalibrationValues(line string) int {
 
 	retNum, err := strconv.Atoi(firstDigit + lastDigit)
 	if err != nil {
-		fmt.Print("Error? %v", err)
+		fmt.Print("error? %v", err)
 	}
 
 	return retNum
